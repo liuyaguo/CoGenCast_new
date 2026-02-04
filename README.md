@@ -62,4 +62,6 @@ This repo is built on the pioneer works. We appreciate the following GitHub repo
   [PatchTST](https://github.com/yuqinie98/PatchTST)
   
 ## 📌 Citation
-> If you find our work helpful, please consider starring this repository and citing our research.
+> 🙋 Please let us know if you find any mistakes or have suggestions.
+>
+> ⭐ If you find our work helpful, please consider starring this repository and citing our research.
