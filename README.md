@@ -72,4 +72,5 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 ![Main Results](assets/table.png)
 
 ## 🙏 Acknowledgement
-We thank the open-source community for the datasets and foundational libraries used in this project.
+This repo is built on the pioneer works. We appreciate the following GitHub repos a lot for their valuable code base or datasets:
+Time-Series-Library
