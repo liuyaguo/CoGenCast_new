@@ -5,18 +5,18 @@
   <img src="https://img.shields.io/badge/Time%20Series-Forecasting-2F4F4F" alt="Time Series Forecasting" />
 </p>
 
-## Abstract
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/file-text.svg" width="18" height="18" alt="Abstract icon" /> Abstract
 We propose CoGenCast, a coupled autoregressive-flow generative framework for time series forecasting. The method integrates an autoregressive backbone with flow-based generation to model complex temporal dependencies, aiming to improve forecasting accuracy and robustness across diverse datasets.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/image.svg" width="18" height="18" alt="Overview icon" /> Overview
 ![CoGenCast Framework](assets/framework.png)
 
-## Key Features
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/star.svg" width="18" height="18" alt="Key Features icon" /> Key Features
 - Coupled autoregressive-flow generation for expressive forecasting distributions
 - Flexible backbone integration with large language models for sequence modeling
 - Supports pretraining and finetuning across multiple time-series datasets
 
-## Quick Start
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/rocket.svg" width="18" height="18" alt="Quick Start icon" /> Quick Start
 ### Environment
 - Python 3.10 (recommended)
 - Install dependencies:
@@ -68,8 +68,8 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --pct_start 0.3
 ```
 
-## Performance
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/bar-chart-2.svg" width="18" height="18" alt="Performance icon" /> Performance
 ![Main Results](assets/table.png)
 
-## Acknowledgement
+## <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/heart.svg" width="18" height="18" alt="Acknowledgement icon" /> Acknowledgement
 We thank the open-source community for the datasets and foundational libraries used in this project.
