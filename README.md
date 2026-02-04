@@ -39,9 +39,9 @@ pip install transformers
 ```
 
 ### Datasets and LLM Backbone
-####Datasets
+#### Datasets
 We use the following five real-world datasets for our experiments. They are placed in the ./datasets folder in the repository. Please ensure you adhere to each dataset's respective license when using them.
-####Backbone: download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
+#### Backbone: download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
 
 ### Run Demo
 ```bash
