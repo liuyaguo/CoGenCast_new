@@ -29,9 +29,9 @@ pip install -r requirements.txt
 pip install transformers
 ```
 
-### Datasets and Qwen3-0.6B
+### Datasets and LLM Backbone
 - Datasets: download the datasets you need and place them under `./datasets/` (e.g., `./datasets/ETTh1/ETTh1.csv`).
-- Qwen3-0.6B: download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
+- Backbone: download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
 
 ### Example Run
 ```bash
@@ -76,4 +76,11 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 
 ## 🙏 Acknowledgement
 This repo is built on the pioneer works. We appreciate the following GitHub repos a lot for their valuable code base or datasets:
-- Time-Series-Library
+- [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
+- [LLM4TS](https://github.com/blacksnail789521/LLM4TS)
+- [Time-LLM](https://github.com/KimMeen/Time-LLM)
+- [FlowTS](https://github.com/UNITES-Lab/FlowTS)
+- [CDPM](https://github.com/zjt-gpu/CDPM)
+- [CSDI](https://github.com/ermongroup/CSDI)
+- [TimeDART](https://github.com/Melmaphother/TimeDART)
+- [PatchTST](https://github.com/yuqinie98/PatchTST)
