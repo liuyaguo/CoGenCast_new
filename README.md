@@ -45,6 +45,11 @@ We use the following ten real-world datasets for our experiments. They are place
 - Exchange: Available at [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://ise.thss.tsinghua.edu.cn/~mlong/doc/Autoformer-nips21.pdf).
 - Wind: Available at [Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement](https://proceedings.neurips.cc/paper_files/paper/2022/file/91a85f3fb8f570e6be52b333b5ab017a-Paper-Conference.pdf).
 - Solar: Available at [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://dl.acm.org/doi/epdf/10.1145/3209978.3210006).
+For all datasets , the CSV should contain:
+
+- `date` (timestamp)
+- `feature columns` (multivariate) or the target column (univariate)
+- `json_summary` (text summary field used as  context features)
 
 ### Backbone
 Download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
