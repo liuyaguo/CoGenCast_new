@@ -66,13 +66,13 @@ sh scripts/ETTh1.sh
 
 ## 🙏 Acknowledgement
 This repo is built on the pioneer works. We appreciate the following GitHub repos a lot for their valuable code base or datasets:
-- [Time-Series-Library](https://github.com/thuml/Time-Series-Library)  [LLM4TS](https://github.com/blacksnail789521/LLM4TS)
+- [USTC-Time-Series](https://github.com/ustc-time-series) [Time-Series-Library](https://github.com/thuml/Time-Series-Library)   [LLM4TS](https://github.com/blacksnail789521/LLM4TS)
   [Time-LLM](https://github.com/KimMeen/Time-LLM)
   [FlowTS](https://github.com/UNITES-Lab/FlowTS)
   [CDPM](https://github.com/zjt-gpu/CDPM)
-  [CSDI](https://github.com/ermongroup/CSDI)
-  [TimeDART](https://github.com/Melmaphother/TimeDART)
+  [TimeGrad](https://github.com/zalandoresearch/pytorch-ts)
   [PatchTST](https://github.com/yuqinie98/PatchTST)
+  [DLinear](https://github.com/cure-lab/LTSF-Linear)
   
 ## 📌 Citation
 > 🙋 Please let us know if you find any mistakes or have suggestions.
